@@ -8,13 +8,13 @@ class InputBox extends Component {
 
         };
     }     
-      
+
     render (){
     return (
-        <div>
-            <div><input type='text' id='zip' placeholder='ZIP code'></input></div>
-            <div><input type='text' id='distance' placeholder='Distance'></input></div>
-            <div><button id='submitbutton' type='submit'>Submit</button></div>
+        <div className="input-box">
+            <input type='text' id='zip' placeholder='ZIP code'></input>
+            <input type='text' id='distance' placeholder='Distance'></input>
+            <button id='submitbutton' type='submit'>Submit</button>
         </div>
     )
 }}

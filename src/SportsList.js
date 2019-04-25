@@ -6,7 +6,7 @@ class SportsList extends Component {
     constructor(props){
         super(props);
         this.state = {
-        sports: ['Skateboard', 'BMX', 'Mountain Bike', 'Wakeboard', 'Snowboard', 'Rock Climb', 'Sky Dive', 'Surf', 'Scuba Diving', ]
+        sports: ['Skateboard', 'BMX', 'Mountain Bike', 'Wakeboard', 'Snowboard', 'Rock Climb', 'Sky Dive', 'Surf', 'Scuba Diving', 'Disk Golf', 'Motor Sports', 'Parasailing', 'Rafting', 'Cliff Diving', 'Bungee Jumping' ]
         };
     }       
     

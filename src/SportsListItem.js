@@ -13,7 +13,7 @@ class SportsListItem extends Component {
 
     return (
         <div>
-            <div>{this.state.sport}</div>
+            <div className="list-item">{this.state.sport}</div>
         </div>
     )
 }}
